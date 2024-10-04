@@ -265,7 +265,7 @@ h1 {
 
 ::-webkit-scrollbar {
 
-  width: 8px;
+  width: 6px;
 
 
 }
@@ -309,4 +309,57 @@ a {
 
 
   font-size: 0.9rem;
+}
+
+.chips-wrapper {
+
+  max-width: calc(100vw - 240px);
+  overflow-x: scroll;
+  background-color: black;
+  display: flex;
+  padding-left: 14px;
+  border-top: solid 1px rgba(255, 255, 255, 0.1);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+
+
+
+
+}
+
+.chips {
+
+  margin: 12px 6px;
+  background-color: rgb(39, 39, 39);
+  color: #fff;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  white-space: nowrap;
+  transition: 0.5s;
+  overflow-x: scroll;
+
+
+
+
+
+}
+
+.chips:hover {
+
+  background-color: #d4d4d4;
+
+
+}
+
+/*   */
+
+
+.chips-wrapper::-webkit-scrollbar-thumb {
+
+  background-color: #717171;
+}
+
+.chips-wrapper::-webkit-scrollbar {
+
+  height: 10px;
 }
