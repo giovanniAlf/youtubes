@@ -75,7 +75,7 @@ body {
   align-items: center;
   gap: var(--gap-medium);
   align-content: center;
-  width: 35px;
+  width: 30px;
 }
 
 .sidebar {
